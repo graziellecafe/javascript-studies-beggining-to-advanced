@@ -27,7 +27,7 @@ This respository is about the study about Javascript since the begging to advanc
 
 # Introdução
 
-ENtender conceitos fundamentais do JS e instalar todas as depencências
+Emtender conceitos fundamentais do JS e instalar todas as depencências
 
 ## O que é Javacript
 
