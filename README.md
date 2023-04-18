@@ -1,6 +1,6 @@
 # Javascript studies since beggining to advanced
 
-This respository is about the study about Javascript since the begging to advanced. The topics studies is from the course from Mates at Udemy
+This respository is about the study about Javascript since the begging to advanced. The topics studies is from the course from Mateus at Udemy
 
 # Sumário
 
