@@ -47,11 +47,11 @@ Emtender conceitos fundamentais do JS e instalar todas as depencências
 - Pode ser utilizada como lnguagem server-side (Node.js)
 - Linguagem base de grandes frameworks (React, Angulas, Vue)
 
-## Tipos de dados e operadores
+# 2.  Tipos de dados e operadores
 
 Conhecer os tipos de dados em JS e também os operadores da linguagem
 
-## O que sã tipos de dados
+## O que são tipos de dados
 
 - A classificação de um dado / categoria
 - Dados são por exemplo: 13. ´olá´. true
