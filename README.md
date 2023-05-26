@@ -153,46 +153,80 @@ Vamos começar a programar, utilizando técnicas mais comuns como: estrutura de 
 - `Math.round()`: arredonda para baixo
 - `Math.ceil()`: arredonda para cima
 
+## O que são estruturas de controle 
+- Um programa é executado de cima para baixo
+- Com as estruturas podemos modelar o fluxo do programa 
+- Ou seja,dependendo dos valores de statements e expressions ele tomará um caminho diferente 
 
-
-# 19. Node JS
-
-Aprender o que é Node JS e as suas possibilidades para o desenvolvimento web
-
-## O que é Node?
-
-- Não é uma linguagem de programação
-- Uma ferramenta construída sobre o motor Javascript do Google Chrome para criar applicações rápidas e escaláveis
-- O problema: cada conexão de um cliente aloca um espaço na memória
-- Com Node: cada conexão é um evento executado na engine no Node
-- Ou seja, o Node suporta muito mais conexões do que PHP e Java em uma máquina igua, por exemplo
-
-## Instalando o node
-
-- site oficial: nodejs.org/en
-- no windows é um executável que funciona com a maiorados outros programas para instalar
-- no linux: sudo apt install nodejs e sudo apt install nom
-- depois teste com node -v
-
-## Testando o Node
-
-Podemos criar um arquivo Javascript e executar o node
+### **Estrutura de controle: if**
+-  O programa vai executar um bloco de código SE algo acontecer 
+- Onde algo é a condição imposta por um statement 
+- Que resultar em um boolean (true or false)
 
 ```js
-let msg = "Hello World";
-console.log(msg);
+let idade = 19; 
 
-node index.js
+if (idade > 18) {
+  console.log("Pode entrar!); 
+}
 ```
 
-## O comando node
+```js
+let nome = "Grazielle"; 
 
-- Podemos executar instruções de Javascaript rodando o comando node
-- Podemos fazer operações matemáticas, utilizar funções do Javascript e muito mais
+if (nome == "Grazielle" && idade > 18){
+  console.log("Ela é maior de idade"); 
+}
+```
 
-## O npm
+### **Estrutura de controle: else**
+- Podemos executar um outro bloco de código, caso a instrução do if não seja atendida 
+- Ou seja, SE NÃO EXECUTAR o bloco if, execute o bloco else
 
-- Ferramenta utilizada para instalar módulos de Javascript
-- Que podem fazer desde operações matemãticas até comunicação HTTP
-- Instalamos um pacote pelo comando `npm instal pacote`
-- Vem junto com o node
+```js
+let nome = "Grazielle"; 
+
+if(nome == "Grazielle"){
+  console.log("Seu nome é Grazielle"); 
+} else { 
+  console.log("O seu nome NÃO é Grazielle"); 
+}
+```
+
+## O que são estruturas de repetição 
+- A ideia é repetir uma ação até atingir uma condição 
+- Ao invés de repetirmos o mesmo código várias vezes, criamos um statement que fará uma checagem em cada loop 
+- Também chamada de loop 
+
+### **Estrutura de repetição: while** 
+- Fará uma ação até que a condição seja atingida
+- Precisamos realmente definir um fim para o loop, para não termos o problema do loop infinito 
+
+```js
+  let x = 10; 
+
+  while(x > 0) {
+    console.log(x); 
+    x = x - 1; 
+  }
+```
+
+### **Estrutura de repetição: do while** 
+```js
+ let y = 0; 
+
+ do {
+  console.log(y);
+  y = y + 1;
+ } while (y < 5)
+
+```
+
+### **Estrutura de repetição: for** 
+```js
+
+for (let numero = 2; numero < 100; numero = numero * 2) {
+  console.log("O numero é: " + numero); 
+  
+}
+```
