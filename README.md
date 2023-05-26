@@ -92,6 +92,69 @@ console.log("Primeira linha \n Segunda Linha")
   console.log(3 > 10);
   ```
 
+# 4. Estruturas de Programação
+Vamos começar a programar, utilizando técnicas mais comuns como: estrutura de controle, repetição, funções, etc. 
+
+## O que é um programa/software?
+- É um conjunto de declarações (statements)
+- Statements são conjuntos de expressões (expressions)
+- Expresssion é todo fragmento de código que produz um valor 
+- Software tem um objetivo 
+- Statements guiam o software para o seu objetivo 
+- Expresssions são os valores que os statements esperam para guiar o software
+
+- Statement: `console.log(1 > 2)`
+- Expression: `console.log('batata')`
+
+## O que são variáveis?
+- Salvamos os valores em variáveis (isso é um statement)
+- `let laranjas = 5; `
+- `console.log(laranjas * laranjas); `
+
+## Como salvar valores na memória
+- Podemos também mudar o valor que foi salvo anteriormente 
+- `laranjas = laranjas + 1`
+- `console.log(laranjas)`
+
+- `let` pode definir várias variáveis também 
+- `let quadrado = 4; triangulo = 3;; retangulo = 4`
+- `console.log(quadrado * (triangulo ( retangulo )));`
+
+## Convenção no nome de variáveis
+ - Não pode começar com um número `let 2teste`
+ - Mas pode terminar com um número `let teste9`
+ - Pode ter $ ou _ mas não pode ter outros caracteres especiais (`let $nome, _nome)`
+ - Pode iniciar com letra maiúscula `(let Nome = "Matheus")`
+ - Ou usar camelCase `(let meuPrimeiroNome = "Matheus")`
+
+ ## O ambiente do Javascript 
+- Quando qualquer programa é iniciado, o ambiente é criado
+- E este ambiente não incia vazio 
+- Ele contém **funções** nativas da linguagem 
+- **Funções** são blocos de código, qe nos retornam um valor ou ação
+- O ambiente de Javascript neste curso poderiamos entender como o navegador 
+
+## As estruturas das funções 
+- Antes de mais nada: funções são chamadas durante o programa 
+- Você também pode ouvir: executar, chamar, invocar uma função 
+- E nós chamamos a função utilizando o nome  dela + abrindo e fechando parênteses
+- `nomeDaFuncao();`
+
+- Também podemos inserir parâmetros, em algumas funções são obrigatórios 
+- Basicamente são valores que podem mudar o resultado da função
+- `nomeDaFuncao(parametro1 , parametro2);`
+
+## Funções built in 
+- `let idade = prompt("Qual a sua idade"); `
+- `alert("Esta é uma mensagem"); `
+- ` let maiorNumero = Math.max(5, 2,1, 6); `
+- `Math.max()`
+- `Math.min()`
+- `Math.round()`: arredonda para baixo
+- `Math.ceil()`: arredonda para cima
+
+
+
 # 19. Node JS
 
 Aprender o que é Node JS e as suas possibilidades para o desenvolvimento web
