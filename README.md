@@ -1,6 +1,6 @@
-# Javascript studies since beggining to advanced
+# Javascript studies from beginning to advanced
 
-This respository is about the study about Javascript since the begging to advanced. The topics studies is from the course from Mateus at Udemy
+This repository is all about studying Javascript from beginning to advanced. Topics studied are from Matthew's course on Udemy. [You can find the course here](https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/).
 
 # Sumário
 
@@ -27,7 +27,7 @@ This respository is about the study about Javascript since the begging to advanc
 
 # 1. Introdução
 
-Emtender conceitos fundamentais do JS e instalar todas as depencências
+Entender conceitos fundamentais do JS e instalar todas as dependências
 
 ## O que é Javacript
 
@@ -230,3 +230,39 @@ for (let numero = 2; numero < 100; numero = numero * 2) {
   
 }
 ```
+
+### **Estrutura condicional: switch**
+- Quando há a necessidade de vários ifs podemos utilizar o switch/case
+- Para sair de um case podemos utilizar o break 
+- Podemos inserir uma expressão default para caso nenhum valor seja correspondido
+
+```js
+
+let nome = "João"; 
+
+switch(nome) {
+  case "João": 
+    console.log("O seu nome é João"); 
+    break;
+  case "Marcos" :
+    console.log("O seu nome é Marcos");
+    break; 
+  default: 
+    console.log("O seu nome não é João nem Marcos"); 
+    break; 
+}
+```
+
+## Comentários no Javascript
+- Utilizado para explicar o que acontece no código 
+- Ou também para testar se algum código está afetando o sistema 
+- Completamente ignorado pelo interpretador de código 
+- Uma linha e multi-linha 
+
+```js 
+  // comentário de uma linha 
+
+  /* comentário 
+     de várias linhas 
+  */ 
+``` 
