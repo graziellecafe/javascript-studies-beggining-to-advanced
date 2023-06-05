@@ -1,4 +1,4 @@
-# Javascript studies from beginning to advanced
+# javascript studies 
 
 This repository is all about studying Javascript from beginning to advanced. Topics studied are from Matthew's course on Udemy. [You can find the course here](https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/).
 
