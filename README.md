@@ -290,4 +290,90 @@ switch(nome) {
  ```  
 
  
+ ## Arrow functions
+ - Uma outra forma de escrever funções 
+ - Bem utilizada nos framweworks modernos 
+
+ ```js
+ const parOuImpar = (n) => { 
+  return n % 2
+ }
+
+ console.log(parOuImpar(3));
+ ``` 
+
+ - Se só tem um parâmetro, podemos remover os parânteses do argumento e o return 
+ - Se a expressão for pequena, pode até ter ser feita em uma linha sem prejudicar o codigo 
+ ```js
+ const raizQuadrada = (x) => { 
+  return x * x; 
+ }
+
+ const raizQuadrada2 = n => n * n; 
+
+ console.log(raizQuadrada(2)); 
+ console.log(raizQuadrada2(4));
+```
+
+## Argumentos opcioanais 
+- Podemos chamar uma função em JS sem o número igual de parâmetros determinados 
+
+```js
+function nomeComIdade (nome, idade) { 
+  (if idade === undefined){
+    console.log("O seu nome é " + nome); 
+  } else { 
+    console.log("Seu nome é " + " nome + " e voce tem " + idade + " anos". ); 
+  }
+}
+
+nomeComIdade("Grazielle); 
+nomeComIdade("Grazielle", 29)'
+```
+
+## Argumentos com valor default 
+Podemos pré-determinar um valor para um argumento 
+
+```js 
+function repetirFrase(frase, n = 2) {
+  for (let x = 1; x <= n; x ++){
+    console.log(frase + " " + x); 
+  }
+}
+
+repetirFrase("Testando", 5); 
+repetirFrase("Só duas vezes"); 
+``` 
+
+## Closure (Fechamento)
+- Uma função que lembra do ambiente em que ela foi criada 
+```js 
+funciton armazenarSoma(x) {
+  return y => x + y; 
+}
+
+let soma1 = armazenarSoma(3); 
+console.log(soma1(5)); //8
+let soma2 = armazenarSoma(5); 
+console.log(soma2(10)); //15
+``` 
+
+## Recursion 
+ - Uma funcionalidade que permite uma função se chamar novamentet
+ - Isso pode ser um problema caso a função se chama muitas vezes 
+
+ ```js
+ function retornarNumeroPar(n) {
+  if(n % 2 == 0) {
+    console.log("n agira é par: " + n); 
+  } else { 
+    console.log(n); 
+    retornarNumeroPar(n-1); 
+  }
+ }
+
+ retornarNumeroPar(3); 
+ ```
+
+ 
 
