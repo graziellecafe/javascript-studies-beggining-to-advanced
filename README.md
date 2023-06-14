@@ -375,5 +375,24 @@ console.log(soma2(10)); //15
  retornarNumeroPar(3); 
  ```
 
- 
+ # 8. Objetos e Arrays
+ - Duas estruturas de dados que servem pra colocar informações detalhadas em um item 
+ - Programação Orientada a Objetos é orientada a objetos 
+ - Listas: Arrays
+
+ ## O que são arrays (conjuntos)
+ - Possibilidade de adicionar um conjunto de valores a uma variável 
+ - O array deve ser escrito em colchetes, separando os valores por vírgulas, etc 
+- Normalmente mesmo tipo de dados
+
+```js
+let numeros = [ 1, 3, 5,8, 12]; 
+let informacoes = [ "Matheus, 12, true, "teste", 2]; 
+```
+
+## Mais sobre arrays
+- Podemos acessar um array pelo seu índice, por exemplo `array[1]`
+- Lembrando que o primeiro índice é sempre 0, ou seja, para acessar o primeiro elemeento `array[0]`
+
+
 
