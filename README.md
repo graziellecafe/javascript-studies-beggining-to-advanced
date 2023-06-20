@@ -394,5 +394,26 @@ let informacoes = [ "Matheus, 12, true, "teste", 2];
 - Podemos acessar um array pelo seu índice, por exemplo `array[1]`
 - Lembrando que o primeiro índice é sempre 0, ou seja, para acessar o primeiro elemeento `array[0]`
 
+## Propriedadade
+- Propriedades são informções que podem ser verificadas de um valor 
+- Quase todos os valores de Javascript tem propriedades, menos null e undefined 
 
+```js
+let numeros = [1,3,5,6,7,8,9]; 
+console.log(numeros.lengh); 
+```
 
+## O que são métodos 
+- Métodos são propriedades que funcionam como funções 
+- Srings e arrays contém métodos 
+
+## Objetos 
+- Uma coleção de propriedades, parecidos com arrays
+- Podemos acessar estas propriedades 
+
+```js
+let pessoa = { 
+  nome: "Grazielle", 
+  idade: 29, 
+  profissao: "Progragramadora,
+}
